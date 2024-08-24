@@ -25,7 +25,7 @@ Here’s an overview of the project structure and what each directory/file is re
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/ArjunDev17/go-api.git
+    git clone https://github.com/ArjunDev17/dynamic-ad-server
     cd go-api
     ```
 

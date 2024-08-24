@@ -8,7 +8,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// BidHandler handles POST requests to the /bid endpoint.
 func BidHandler(c *gin.Context) {
 	var requestPayload utils.BidRequest
 
