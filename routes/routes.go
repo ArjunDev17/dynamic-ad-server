@@ -9,7 +9,7 @@ import (
 
 // RegisterRoutes sets up the application's routes.
 func RegisterRoutes(r *gin.Engine) {
-	// Add middleware for authentication
+
 	r.Use(middleware.AuthMiddleware())
 
 	r.POST("/bid", controllers.BidHandler)
